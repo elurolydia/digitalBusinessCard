@@ -1,5 +1,7 @@
 import React from "react";
-import profilepix from '../assets/profilepix.png'
+import profilepix from '../assets/profilepix.png';
+import icon from '../assets/icon.svg'
+import linkedin from '../assets/linkedin.svg'
 
 
 
@@ -10,9 +12,9 @@ export default function Info () {
             <h1>Lydia Eluro</h1>
             <p>Frontend Developer</p>
             <small>My website</small>
-            <div>
-                <button>Email</button>
-                <button></button>
+            <div className="divbox">
+                <button className="btn1"> <img src={icon}/>Email</button>
+                <button className="btn2"><img src={linkedin}/>LinkedIn</button>
             </div>
         </div>
     )
