@@ -13,8 +13,8 @@ export default function Info () {
             <p>Frontend Developer</p>
             <small>My website</small>
             <div className="divbox">
-                <button className="btn1"> <img src={icon}/>Email</button>
-                <button className="btn2"><img src={linkedin}/>LinkedIn</button>
+                <a href="mailto:elurolydia@gmail.com"> <button className="btn1"> <img src={icon}/>Email</button> </a>
+                <a href="https://www.linkedin.com/in/lydia-eluro/" target='blank'><button className="btn2"><img src={linkedin}/>LinkedIn</button></a>
             </div>
         </div>
     )
