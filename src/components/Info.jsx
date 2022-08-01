@@ -13,7 +13,7 @@ export default function Info () {
             </div>
             <h1>Lydia Eluro</h1>
             <p>Frontend Developer</p>
-            <small>My website</small>
+            <small><a  href="https://elurolydia.github.io/my_calculator/" target="blank">Project</a></small>
             <div className="divbox">    
                 <a href="mailto:elurolydia@gmail.com"><button className="btn1"><img src={icon}/>Email</button></a>
             </div>

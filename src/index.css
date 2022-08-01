@@ -60,7 +60,7 @@ body {
   margin: 7px 0px;
 }
 
-.infoDiv small {
+.infoDiv small a {
   display: block;
   height: 16px;
   font-weight: 400;
